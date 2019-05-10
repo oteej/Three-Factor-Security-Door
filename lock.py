@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import sys
 import MySQLdb
-import mysql.connector as mariadb
 from threading import Thread
 import threading
 import time
