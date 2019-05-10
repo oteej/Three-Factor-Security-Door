@@ -32,7 +32,7 @@ class Fullscreen_Window:
 	global dbUser
 	global dbPass
 	
-	dbHost = '127.0.0.1'
+	dbHost = '3306'
 	dbName = 'doorlock'
 	dbUser = 'tj'
 	dbPass = '123456'
