@@ -1,6 +1,9 @@
 #!/usr/bin/env python2
 import sys
-import mysql.connector as mariadb
+import mysql.connector 
+db = mysql.connector.connect(user='pi', password='pi3197',
+			     host='3306',
+			     database='doorlock')
 from threading import Thread
 import threading
 import time
