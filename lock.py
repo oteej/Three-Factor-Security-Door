@@ -34,10 +34,10 @@ class Fullscreen_Window:
 	global dbUser
 	global dbPass
 	
-	dbHost = '3306'
-	dbName = 'doorlock'
-	dbUser = 'pi'
-	dbPass = 'pi3197'
+	dbHost = 'localhost'
+	dbName = 'DB_NAME'
+	dbUser = 'USER'
+dbPass = 'PASSWORD'
 	
 	def __init__(self):
 		self.tk = tk.Tk()
