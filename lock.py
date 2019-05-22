@@ -26,7 +26,7 @@ except ImportError:
 	
 class Fullscreen_Window:
 	
-	global 3306
+	global dbHost
 	global dbName
 	global dbUser
 	global dbPass
