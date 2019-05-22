@@ -31,7 +31,7 @@ class Fullscreen_Window:
 	global dbUser
 	global dbPass
 	
-	dbHost = '3306'
+	dbHost = 3306
 	dbName = 'doorlock'
 	dbUser = 'pi'
 	dbPass = 'pi3197'
