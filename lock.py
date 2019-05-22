@@ -31,10 +31,10 @@ class Fullscreen_Window:
 	global dbUser
 	global dbPass
 	
-	dbHost = 'localhost'
-	dbName = 'DB_NAME'
-	dbUser = 'USER'
-dbPass = 'PASSWORD'
+	dbHost = 3306
+	dbName = localhost
+	dbUser = pi
+dbPass = pi3197
 	
 	def __init__(self):
 		self.tk = tk.Tk()
