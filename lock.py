@@ -26,12 +26,12 @@ except ImportError:
 	
 class Fullscreen_Window:
 	
-	global dbHost
+	global 3306
 	global dbName
 	global dbUser
 	global dbPass
 	
-	dbHost = 3306
+	dbHost = 'localhost'
 	dbName = 'DB_NAME'
 	dbUser = 'USER'
 	dbPass = 'PASSWORD'
