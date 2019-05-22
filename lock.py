@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 import sys
 import MySQLdb
 from threading import Thread
@@ -31,10 +31,10 @@ class Fullscreen_Window:
 	global dbUser
 	global dbPass
 	
-	dbHost = 3306
-	dbName = localhost
-	dbUser = pi
-dbPass = pi3197
+	dbHost = '3306'
+	dbName = 'doorlock'
+	dbUser = 'tj'
+	dbPass = '123456'
 	
 	def __init__(self):
 		self.tk = tk.Tk()
